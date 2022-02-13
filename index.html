@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__left">
+        <img src="./weatherimage.jpg" alt="weather image" />
+      </div>
+
+      <div class="container__right">
+        <div class="fields">
+        <input type="text" placeholder="Enter City" id="city-field"/>
+        <input type="text" placeholder="Enter Country" id="country-field"/>
+        <button id="btn">Search Weather</button>
+      </div>
+
+      <div class="container__returns">
+        <h3 id="city">City:</h3>
+        <h3 id="country">Country:</h3>
+        <h3 id="weather">Weather:</h3>
+        <h3 id="humidity">Humidity:</h3>
+        <h3 id="temperature">Temperature:</h3>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
